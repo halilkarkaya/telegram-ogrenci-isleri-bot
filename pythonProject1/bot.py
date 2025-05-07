@@ -81,7 +81,7 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
         # RAG zinciri üzerinden soruyu yanıtla
         bot_reply = get_rag_response(user_message)
     except Exception as e:
-        bot_reply = f"Lan bi bok oldu: {e}"
+        bot_reply = f"bir hata oluştu: {e}"
 
     await update.message.reply_text(bot_reply)
 
