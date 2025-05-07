@@ -1,0 +1,14 @@
+python-telegram-bot>=20.0
+python-dotenv>=1.0.0
+langchain-google-genai>=0.0.5
+langchain-chroma>=0.0.1
+langchain-community>=0.0.10
+langchain-core>=0.1.10
+unstructured>=0.10.30
+openpyxl>=3.1.2
+
+lanchain-chain=0.2.3
+
+chromadb=0.6.3
+
+
